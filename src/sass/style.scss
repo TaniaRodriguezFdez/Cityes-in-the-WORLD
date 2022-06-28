@@ -1,0 +1,22 @@
+@import 'main.scss';
+
+
+body{
+    background-color: black;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.716);
+   
+}
+.contenedor{
+max-width: 1320px;
+min-width: 340px;
+}
+div#navbarText.collapse.navbar-collapse{
+    justify-content: flex-end;
+}
+

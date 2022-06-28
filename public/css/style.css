@@ -1,0 +1,104 @@
+.aside_ranking {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 25%;
+  margin: 1.5%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.aside_ranking .city_ranking {
+  width: 100%;
+  margin: 2%;
+  height: 5%;
+  text-align: right;
+  padding: 40px 10px;
+  background-color: rgba(80, 90, 115, 0.793);
+  color: aliceblue;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+}
+.main_container .cards_container1 {
+  display: flex;
+}
+.main_container .cards_container2 {
+  display: flex;
+}
+.main_container .card {
+  margin: 2%;
+}
+
+.restaurants-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.restaurants_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.restaurants_container .restaurant-one {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.restaurants_container .restaurant {
+  width: 150px;
+}
+
+.logo {
+  margin-left: 2%;
+}
+
+@media screen and (max-width: 1100px) {
+  .aside {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .cards_container1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards_container2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .restaurants_container {
+    flex-wrap: wrap;
+  }
+
+  .copyright {
+    display: flex;
+    align-items: center;
+  }
+  .copyright P {
+    margin-left: 26%;
+  }
+}
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.716);
+}
+
+.contenedor {
+  max-width: 1320px;
+  min-width: 340px;
+}
+
+div#navbarText.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */
